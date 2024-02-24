@@ -1,0 +1,110 @@
+
+.post-co{
+    width: 700px;
+    height: 230px;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+}
+.post{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 40px;
+   
+
+}
+.img{
+    width: 300px;
+    height: 200px;
+}
+.view{
+    background:red ;
+    color: white;
+    font-weight: bold;
+    padding:8px 15px;
+    border-radius: 10px;
+    border-style: hidden;
+    cursor: pointer;
+    transition:  0.5s;
+}
+.view:hover{
+    transform:scale(1.1);
+}
+.del{
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+    color: red;
+    height: 0;
+}
+.edi{
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    color:blue;
+    height: 0;
+}
+
+.delete{
+    position: relative;
+    top: -40px;
+    left: 20px;
+    color: red;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    /* gap: 40px; */
+    margin-bottom: 40px;
+}
+.titleC{
+    position: relative;
+    top: 25px;
+    left: 40px;
+    font-weight: bold;
+    color: rgb(0, 174, 255);
+}
+.formC{
+    position: relative;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    height: 330px;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.iputC,.submitC{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    gap: 10px;
+}
+.iputC input{
+    height: 30px;
+}
+.submitC{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-style: hidden;
+    border-radius: 10px;
+    text-align: center;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.clearC{
+    position: relative;
+    top: -25px;
+    left: 35%;
+    cursor: pointer;
+    border-radius: 100%;
+    border-color: red;
+    color: red; 
+}

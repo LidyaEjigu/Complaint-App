@@ -1,0 +1,144 @@
+
+.post-AAA{
+    padding-bottom: 40px;
+}
+.post-AA{
+    width: 350px;
+    height: 400px;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.postA{
+    top: 7px;
+    position: relative;
+    display: flex;
+}
+.imgA{
+    width: 270px;
+    height: 250px;
+}
+.btn{
+    position: relative;
+    cursor: pointer;
+    height: 10px;
+    background-color: transparent;
+    border-style: hidden;
+}
+.pop{
+    position: relative;
+    left: -30px;
+    top: 40px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: blue;
+    width: 0;
+    cursor: pointer;
+}
+.title{
+    position: relative;
+    top: -30px;
+
+}
+.postsA{
+    position: relative;
+    left: 30px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+.titleA{
+    position: relative;
+    top: 25px;
+    left: 40px;
+    font-weight: bold;
+    color: rgb(0, 174, 255);
+}
+.formA{
+    position: relative;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    height: 280px;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.iputA,.submit{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    gap: 10px;
+}
+.iputA input{
+    height: 30px;
+}
+.submit{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-style: hidden;
+    border-radius: 10px;
+    text-align: center;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.clear{
+    position: relative;
+    top: -25px;
+    left: 35%;
+    cursor: pointer;
+    border-radius: 100%;
+    border-color: red;
+    color: red; 
+}
+
+.viewco{
+    position: relative;
+    top: 40px;
+    left: 30%;
+    display: flex;
+    width: 500px;
+    height: 400px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.titleD{
+    text-align: center;
+    font-weight: bold;
+    color: crimson;
+}
+.vewD{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+    top: 40px;
+}
+.timeD{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    text-decoration:underline;
+}
+.tag,.statusV{
+    position: relative;
+    top: 50px;
+    left: 30%;
+    color: blue;
+}
+.author{
+    position: relative;
+    top: 160px;
+    left: 70%;
+    color: blue;
+}

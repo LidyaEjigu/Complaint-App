@@ -1,0 +1,30 @@
+
+.annou-form-post
+{
+    position: relative;
+    overflow-x: hidden;
+    top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.comp-form-post{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.postsCom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.poss{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.imoge{
+    overflow-x: hidden;
+    width: 98vw;
+    height: 75vh;
+}

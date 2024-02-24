@@ -1,0 +1,74 @@
+.authform{
+    position: relative;
+    left: 40%;
+    top: 40px;
+    width: 300px;
+    padding: 40px 0;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formAuth{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lock{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -30px;
+    border-radius: 100%;
+    background-color: rgb(255, 0, 149);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sig{
+    position: relative;
+    top: -20px;
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+}
+.formAuth input{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.firstlast{
+    display: flex;
+    gap: 5px;
+    width: 96%;
+}
+.submitAuth{
+    cursor: pointer;
+    width: 96%;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-style: hidden;
+}
+.submitAuth:hover{
+    opacity: 0.8;
+}
+.pass,.emailA,.cpass{
+    width: 280px;
+}
+.firstA,.last{
+    width: 100%;
+}
+.alreadyhave{
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+}

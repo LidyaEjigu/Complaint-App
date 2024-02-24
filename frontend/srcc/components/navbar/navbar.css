@@ -1,0 +1,23 @@
+.mm{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+   
+}
+.logo{
+    position: relative;
+    left: 38%;
+    font-size: 40px;
+    color: rgb(255, 0, 21);
+    text-decoration: none;
+}
+.li{
+ position: relative;
+ top: 30px;
+ text-decoration: none;
+}
+.li:hover{
+    color: red;
+    text-decoration: underline;
+}
+
