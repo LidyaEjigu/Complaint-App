@@ -1,0 +1,6 @@
+export const FETCH_ALL='FEATCH_ALL'
+export const FETCHID='FETCHID'
+export const CREATE='CREATE'
+export const UPDATE='UPDATE'
+export const LIKE='LIKE'
+export const DELETE='DELETE'
